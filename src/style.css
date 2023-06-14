@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.font-xl {
+  font-size: 5rem;
+}
+
+.text-red {
+  color: red;
+}
+
+.number {
+  font-size: 5rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 3rem;
+}

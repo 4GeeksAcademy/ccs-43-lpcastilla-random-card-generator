@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Card Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,16 +13,30 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid vh-100 bg-success align-items-center">
+      <div class="row pt-5">
+        <div class="card mx-auto" style="width: 20rem; height: 30rem;">
+          <div
+            class="card-header type border-bottom-0 bg-transparent text-start"
+          ></div>
+          <div class="card-body text-dark">
+            <h1
+              class="card-title number position-absolute top-50 start-50 translate-middle"
+            ></h1>
+          </div>
+          <div
+            class="card-footer type border-top-0 bg-transparent text-start"
+            style="transform:rotate(180deg)"
+          ></div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <button
+          type="button"
+          class="btn btn-warning mx-auto align-items-center justify-content-center"
+        >
+          Choose New Card
+        </button>
       </div>
     </div>
   </body>
